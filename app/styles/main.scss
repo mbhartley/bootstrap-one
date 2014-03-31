@@ -14,21 +14,26 @@ body {
     background-color: white;
 }
 
+h1 {
+    margin-top: 40px;
+}
+
 .row-1 {
     height: 122px;
     font-size: 100px;
     text-align: center;
     line-height: 100px;
+    z-index: 0;
 }
     
 .color-0 {
-    background-color: rgb(64, 64, 64);
+    background-color: rgb(84, 82, 82);
     color: white;
 }
 
 .color-0:hover {
     background-color: white;
-    color: rgb(64, 64, 64);
+    color: rgb(84, 82, 82);
 }
 
 .color-1 {
@@ -61,9 +66,41 @@ body {
     opacity: 0.8;
 }
 
-#my-pic {
-    width: 150px;
+.darken-color {
+    background-color: rgb(84, 82, 82);
+    opacity: 1;
+    color: white;
 }
+
+#my-pic {
+    width: 200px;
+    margin: 12px 0 0 45px;
+    border-radius: 50%;
+    z-index: 1; 
+    position: absolute;  
+}
+
+#sarah-pic {
+    width: 160px;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    margin: 30px 0 0 56px;
+}
+
+#boys-pic {
+    width: 140px;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    margin: 88px 0 0 -40px;
+}
+
+#intro {
+    font-size: 18px;
+}
+
+
 
 
 
