@@ -77,24 +77,45 @@ h1 {
     margin: 12px 0 0 45px;
     border-radius: 50%;
     z-index: 1; 
-    position: absolute;  
+    position: absolute;
+    transition: all ease 1s;  
 }
+
+// #my-pic:hover {
+//     width: 300px;
+//     z-index: 3;
+//     margin-left: 10px;
+// }
 
 #sarah-pic {
     width: 160px;
     border-radius: 50%;
     z-index: 1;
     position: absolute;
-    margin: 30px 0 0 56px;
+    margin: 32px 0 0 52px;
+    transition: all ease 1s;
 }
+
+// #sarah-pic:hover {
+//     width: 240px;
+//     margin-left: 20px;
+//     z-index: 3;
+// }
 
 #boys-pic {
     width: 140px;
     border-radius: 50%;
     z-index: 1;
     position: absolute;
-    margin: 88px 0 0 -40px;
+    margin: 92px 0 0 -40px;
+    transition: ease all 1s;
 }
+
+// #boys-pic:hover {
+//     width: 200px;
+//     margin-left: -60px;
+//     z-index: 3;
+// }
 
 #intro {
     font-size: 18px;
